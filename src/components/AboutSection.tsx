@@ -34,7 +34,7 @@ const AboutSection = () => {
                   I am currently pursuing a degree while actively working as a freelancer.
                   </p>
                   <p>
-                  I specialize in building modern web applications using Laravel, PHP, and Filament. 
+                  Currently I focus on developing modern web applications using Laravel and PHP. 
                   I focus on creating robust backend architectures, 
                   RESTful APIs, and clean, maintainable code that ensures scalability and performance.
                   </p>
