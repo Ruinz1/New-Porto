@@ -7,19 +7,19 @@ const ContactSection = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       label: "Email",
-      value: "john.doe@example.com",
-      href: "mailto:john.doe@example.com"
+      value: "muamarfarhan07@gmail.com",
+      href: "mailto:muamarfarhan07@gmail.com"
     },
     {
       icon: <Phone className="w-6 h-6" />,
       label: "WhatsApp",
-      value: "+62 812-3456-7890",
-      href: "https://wa.me/6281234567890"
+      value: "+62 821-9373-4482",
+      href: "https://wa.me/6282193734482"
     },
     {
       icon: <MapPin className="w-6 h-6" />,
       label: "Location",
-      value: "Jakarta, Indonesia",
+      value: "Palu, Indonesia",
       href: "#"
     }
   ];
@@ -28,27 +28,22 @@ const ContactSection = () => {
     {
       icon: <Github className="w-6 h-6" />,
       label: "GitHub",
-      href: "https://github.com/johndoe",
-      username: "@johndoe"
+      href: "https://github.com/Ruinz1",
+      username: "@Ruinz1"
     },
     {
       icon: <Linkedin className="w-6 h-6" />,
       label: "LinkedIn",
-      href: "https://linkedin.com/in/johndoe",
+      href: "https://www.linkedin.com/in/muamar-farhan-205259222/",
       username: "John Doe"
     },
     {
       icon: <Instagram className="w-6 h-6" />,
       label: "Instagram",
-      href: "https://instagram.com/johndoe",
-      username: "@johndoe"
+      href: "https://www.instagram.com/_muamarfarhan_/",
+      username: "@_muamarfarhan_"
     },
-    {
-      icon: <MessageSquare className="w-6 h-6" />,
-      label: "Telegram",
-      href: "https://t.me/johndoe",
-      username: "@johndoe"
-    }
+    
   ];
 
   return (
@@ -160,7 +155,7 @@ const ContactSection = () => {
         {/* Copyright */}
         <div className="border-t border-border mt-16 pt-8 text-center">
           <p className="text-muted-foreground">
-            © {new Date().getFullYear()} John Doe. All rights reserved. Built with ❤️ using React & Tailwind CSS.
+            © {new Date().getFullYear()} Muamar Farhan. All rights reserved. Built with using React & Tailwind CSS.
           </p>
         </div>
       </div>

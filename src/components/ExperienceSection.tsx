@@ -6,43 +6,23 @@ const ExperienceSection = () => {
     {
       id: 1,
       type: "bootcamp",
-      title: "Full Stack Web Development Bootcamp",
-      institution: "TechCamp Academy",
-      period: "Jan 2023 - Jun 2023",
+      title: "Backend Engineer Internship",
+      institution: "PT. Ruang Raya Indonesia",
+      period: "August 2022 - Decemeber 2022",
       description: "Intensive 6-month program covering modern web development technologies and best practices.",
-      skills: ["React", "Node.js", "Express.js", "MongoDB", "JavaScript", "Git"],
+      skills: ["Figma","Golang", "PostgreSQL", "Docker", "Github", "RESTful API",   ],
       icon: <Code className="w-6 h-6" />
     },
     {
       id: 2,
       type: "education",
-      title: "Bachelor of Computer Science",
-      institution: "University of Technology",
-      period: "Sep 2019 - Dec 2022",
-      description: "Comprehensive computer science education with focus on software engineering and data structures.",
-      skills: ["Java", "Python", "C++", "Data Structures", "Algorithms", "Database Design"],
+      title: "Bachelor of Information System",
+      institution: "University of Tadulako",
+      period: "Sep 2020 - 2025",
+      description: "Currently pursuing a Bachelor's degree in Information Systems, focusing on software development, database management, and system analysis. Actively involved in academic projects, freelance work, and continuous self-learning to strengthen backend development skills.",
+      skills: ["Information System Development Project", "Information Systems Architecture" , "Data Structures", "Algorithms", "Database Design"],
       icon: <GraduationCap className="w-6 h-6" />
     },
-    {
-      id: 3,
-      type: "bootcamp",
-      title: "UI/UX Design Intensive",
-      institution: "Design Institute",
-      period: "Jul 2023 - Sep 2023",
-      description: "Specialized program focusing on user experience design and modern design principles.",
-      skills: ["Figma", "Adobe XD", "User Research", "Prototyping", "Design Systems", "Usability Testing"],
-      icon: <Code className="w-6 h-6" />
-    },
-    {
-      id: 4,
-      type: "education",
-      title: "Frontend Development Certification",
-      institution: "CodeCamp Online",
-      period: "Oct 2023 - Dec 2023",
-      description: "Advanced frontend development course with focus on React ecosystem and modern practices.",
-      skills: ["React", "TypeScript", "Next.js", "Tailwind CSS", "Testing", "Performance Optimization"],
-      icon: <GraduationCap className="w-6 h-6" />
-    }
   ];
 
   return (

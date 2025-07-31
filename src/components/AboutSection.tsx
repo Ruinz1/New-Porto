@@ -3,9 +3,8 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const AboutSection = () => {
   const skills = [
-    "React", "TypeScript", "Node.js", "Python", "Next.js", "Tailwind CSS",
-    "PostgreSQL", "MongoDB", "Docker", "AWS", "Git", "Figma",
-    "Vue.js", "Express.js", "GraphQL", "Jest", "Cypress", "Sass"
+    "Tailwind CSS", "PostgreSQL", "MySQL", "Docker", 
+    "PHP", "Laravel", "Git", "Figma",
   ];
 
   return (
@@ -28,19 +27,20 @@ const AboutSection = () => {
                 <h3 className="text-2xl font-semibold mb-4 text-primary">My Story</h3>
                 <div className="space-y-4 text-muted-foreground leading-relaxed">
                   <p>
-                    I'm a passionate full-stack developer with over 3 years of experience 
-                    creating digital solutions that make a difference. My journey started 
-                    during college where I discovered my love for coding and design.
+                  I am a dedicated backend developer with over 2 years of experience in developing reliable and scalable systems. 
+                  My passion for coding began during vocational high school (SMK), 
+                  where I was first introduced to software development. Since then, 
+                  I have continued to grow my skills through hands-on projects, freelance work, and academic studies. 
+                  I am currently pursuing a degree while actively working as a freelancer.
                   </p>
                   <p>
-                    I specialize in building modern web applications using React, TypeScript, 
-                    and Node.js. I'm particularly interested in creating intuitive user 
-                    experiences and writing clean, maintainable code.
+                  I specialize in building modern web applications using Laravel, PHP, and Filament. 
+                  I focus on creating robust backend architectures, 
+                  RESTful APIs, and clean, maintainable code that ensures scalability and performance.
                   </p>
                   <p>
-                    When I'm not coding, you can find me exploring new technologies, 
-                    contributing to open source projects, or sharing knowledge with the 
-                    developer community.
+                  Outside of backend development, I spend my time learning about digital marketing and enhancing my frontend skills to grow into a well-rounded full-stack developer. 
+                  I'm particularly interested in how user experience and backend systems can work together to deliver impactful digital solutions.
                   </p>
                 </div>
               </CardContent>
@@ -71,13 +71,13 @@ const AboutSection = () => {
             <div className="grid grid-cols-3 gap-4 mt-8">
               <Card className="text-center p-4 card-gradient border-border/50">
                 <CardContent className="p-0">
-                  <div className="text-2xl font-bold text-primary">50+</div>
+                  <div className="text-2xl font-bold text-primary">10+</div>
                   <div className="text-sm text-muted-foreground">Projects</div>
                 </CardContent>
               </Card>
               <Card className="text-center p-4 card-gradient border-border/50">
                 <CardContent className="p-0">
-                  <div className="text-2xl font-bold text-primary">3+</div>
+                  <div className="text-2xl font-bold text-primary">1+</div>
                   <div className="text-sm text-muted-foreground">Years Exp</div>
                 </CardContent>
               </Card>
