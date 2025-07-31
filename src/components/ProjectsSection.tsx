@@ -14,7 +14,7 @@ const ProjectsSection = () => {
       technologies: ["Laravel", "PHP", "MySQL", "Filament"],
       github: "https://github.com/Ruinz1/SITALQ",
       demo: "#",
-      image: "../public/SITALQ.jpg"
+      image: "/public/SITALQ.jpg"
     },
     {
       id: 2,
@@ -23,7 +23,7 @@ const ProjectsSection = () => {
       technologies: ["Laravel", "PHP", "MySQL", "Javascript"],
       github: "https://github.com/Ruinz1/SIPARDA",
       demo: "https://taskmanager-demo.com",
-      image: "../public/Siparda.jpg"
+      image: "/public/Siparda.jpg"
     },
     {
       id: 3,
