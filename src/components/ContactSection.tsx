@@ -35,7 +35,7 @@ const ContactSection = () => {
       icon: <Linkedin className="w-6 h-6" />,
       label: "LinkedIn",
       href: "https://www.linkedin.com/in/muamar-farhan-205259222/",
-      username: "John Doe"
+      username: "Muamar Farhan"
     },
     {
       icon: <Instagram className="w-6 h-6" />,
