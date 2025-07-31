@@ -2,6 +2,8 @@ import { useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Github } from "lucide-react";
+import SipardaImage from "@/assets/Siparda.jpg";
+import SITALQImage from "@/assets/SITALQ.jpg";
 
 const ProjectsSection = () => {
   const [hoveredProject, setHoveredProject] = useState<number | null>(null);
@@ -14,7 +16,7 @@ const ProjectsSection = () => {
       technologies: ["Laravel", "PHP", "MySQL", "Filament"],
       github: "https://github.com/Ruinz1/SITALQ",
       demo: "#",
-      image: "/public/SITALQ.jpg"
+      image: SITALQImage
     },
     {
       id: 2,
@@ -23,7 +25,7 @@ const ProjectsSection = () => {
       technologies: ["Laravel", "PHP", "MySQL", "Javascript"],
       github: "https://github.com/Ruinz1/SIPARDA",
       demo: "https://taskmanager-demo.com",
-      image: "/public/Siparda.jpg"
+      image: SipardaImage
     },
     {
       id: 3,
