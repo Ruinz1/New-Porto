@@ -9,7 +9,7 @@ const ProjectsSection = () => {
   const projects = [
     {
       id: 1,
-      title: "Sistem Informasi Sekolah",
+      title: "Sistem Informasi Terpadu Al Qolam",
       description: "Sistem informasi sekolah yang membantu pengelolaan data siswa, guru, dan administrasi sekolah secara efisien.",
       technologies: ["Laravel", "PHP", "MySQL", "Filament"],
       github: "https://github.com/Ruinz1/SITALQ",

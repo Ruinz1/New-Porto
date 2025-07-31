@@ -6,7 +6,7 @@ const ExperienceSection = () => {
     {
       id: 1,
       type: "bootcamp",
-      title: "Backend Engineer Internship",
+      title: "Backend Engineering Ruangguru Camp Batch 3 ",
       institution: "PT. Ruang Raya Indonesia",
       period: "August 2022 - Decemeber 2022",
       description: "Intensive 6-month program covering modern web development technologies and best practices.",
