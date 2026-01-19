@@ -27,12 +27,12 @@ const ProjectsSection = () => {
     },
     {
       id: 3,
-      title: "Blog Platform",
-      description: "Modern blogging platform with markdown support and user authentication",
-      technologies: ["Laravel", "PHP", "MySQL", "Filament", "ReactJS", "TailwindCSS", "Vite"],
-      github: "https://github.com/johndoe/blog",
-      demo: "https://blog-demo.com",
-      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=400&h=250&fit=crop"
+      title: "KasirPOS-App",
+      description: "Aplikasi Point of Sale (POS) modern untuk manajemen kasir, inventori, dan laporan penjualan secara real-time",
+      technologies: ["Laravel", "PHP", "MySQL", "ReactJS", "TailwindCSS", "Vite"],
+      github: "https://github.com/Ruinz1/KasirPOS-App",
+      demo: "#",
+      image: "/KedaiPOS.png"
     },
     {
       id: 4,
@@ -55,15 +55,14 @@ const ProjectsSection = () => {
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Explore some of my recent work and side projects that showcase my skills and creativity
           </p>
-        </div>  
+        </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
           {projects.map((project, index) => (
             <Card
               key={project.id}
-              className={`group overflow-hidden card-gradient border-border/50 transition-smooth hover:scale-105 cursor-pointer ${
-                hoveredProject === project.id ? "glow-effect" : "subtle-shadow"
-              }`}
+              className={`group overflow-hidden card-gradient border-border/50 transition-smooth hover:scale-105 cursor-pointer ${hoveredProject === project.id ? "glow-effect" : "subtle-shadow"
+                }`}
               onMouseEnter={() => setHoveredProject(project.id)}
               onMouseLeave={() => setHoveredProject(null)}
               style={{
@@ -93,7 +92,7 @@ const ProjectsSection = () => {
                   </div>
                 </div>
               </div>
-              
+
               <CardContent className="p-6">
                 <h3 className="text-xl font-semibold mb-2 text-foreground group-hover:text-primary transition-colors">
                   {project.title}
