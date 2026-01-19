@@ -27,7 +27,7 @@ const ProjectsSection = () => {
     },
     {
       id: 3,
-      title: "KasirPOS-App",
+      title: "KedaiPOS-App",
       description: "Aplikasi Point of Sale (POS) modern untuk manajemen kasir, inventori, dan laporan penjualan secara real-time",
       technologies: ["Laravel", "PHP", "MySQL", "ReactJS", "TailwindCSS", "Vite"],
       github: "https://github.com/Ruinz1/KasirPOS-App",
