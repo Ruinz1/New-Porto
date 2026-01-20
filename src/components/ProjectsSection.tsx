@@ -36,12 +36,12 @@ const ProjectsSection = () => {
     },
     {
       id: 4,
-      title: "Portfolio Website",
-      description: "Responsive portfolio website built with modern web technologies",
-      technologies: ["React", "Tailwind CSS", "Vite"],
-      github: "https://github.com/johndoe/portfolio",
-      demo: "https://portfolio-demo.com",
-      image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=400&h=250&fit=crop"
+      title: "Teman-Gagal",
+      description: "TemanGagal adalah komunitas supportif di mana kamu bisa berbagi cerita kegagalan, belajar dari pengalaman orang lain, dan bangkit bersama.",
+      technologies: ["Laravel", "React", "TailwindCSS"],
+      github: "https://github.com/Ruinz1/Teman-Gagal",
+      demo: "#",
+      image: "/TemanGagal.png"
     }
   ];
 
